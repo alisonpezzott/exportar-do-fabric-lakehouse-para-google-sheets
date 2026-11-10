@@ -1,0 +1,10 @@
+# Google service account keys and local secrets: never commit
+*.json
+!.vscode/*.json
+.env
+.env.*
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
